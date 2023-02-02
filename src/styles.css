@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.emojiContener {
+  background-color: cornflowerblue;
+  width: 70vw;
+  padding: 1rem 1rem 1rem 1rem;
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+
+input {
+  max-width: 100%;
+  padding: 0.5rem;
+  margin-top: 50px;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+.output {
+  font-size: large;
+  padding: 1rem;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
